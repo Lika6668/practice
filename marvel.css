@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+html, body {
+	margin: 0;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+div {
+	width: 600px;
+	height: 400px;
+	margin: 30px auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.spiderMan {
+	background-image: url(./img/spider_man.jpeg);
+	background-position: center;
+}
+
+.ironMan {
+	background-image: url(./img/iron_man.jpg);
+}
+
+.captainAmerica {
+	background-image: url(./img/captain_america.jpg);
+}
+
+#Avengers {
+	width: 100%;
+	height: 100%;
+	background-image: url(./img/avengers.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.moveBack {
+	color: white;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 1em;
+	position: fixed;
+	top: 2em;
+	right: 2em;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 1280px) {
+	#Avengers {
+		height: 97%;
+	}
+
+	.moveBack {
+		top: 2em;
+		right: 4em;
+		font-size: 17px;
+		padding: 1em;
+	}
+
+	div {
+		width: 66vw;
+		height: 67vh;
+		margin: 5px auto;
+	}
+
+	p {
+		font-size: 26px;
+	}
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+	#Avengers {
+		height: 78%;
+	}
+
+	.moveBack {
+		font-size: 12px;
+	}
+
+	p {
+		font-size: 25px;
+	}
+
+	div {
+		width: 50vw;
+	}
+}
+
+@media (max-width: 1368px) {
+	#Avengers {
+		height: 40%;
+  }
+  .moveBack {
+	font-size: 14px;
+  }
+  div {
+	height: 25vh;
+	width: 60vw;
+  }
+  p {
+	font-size: 21px;
+	}
+}
+
+@media (max-width: 1368px) and (orientation: landscape) {
+	#Avengers {
+		height: 88%;
+	}
+
+	.moveBack {
+		font-size: 16px;
+		right: 4em;
+	}
+
+	div {
+		width: 60vw;
+		height: 58vh;
+		margin: 3px auto;
+	}
+
+	p {
+		font-size: 28px;
+	}
+}
+
+@media screen and (max-width: 896px) {
+	#Avengers {
+		height: 28%;
+	}
+
+	.moveBack {
+		top: 1em;
+    	right: 2em;
+    	font-size: 8px;
+		padding: 0.6em;
+	}
+
+	div {
+		width: 62vw;
+		height: 18vh;
+		margin: 2px auto;
+	}
+
+	p {
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 915px) {
+	#Avengers {
+    	height: 133%;
+	 	width: 103%;
+	}
+
+	.moveBack {
+		font-size: 11px;
+  }
+
+	div {
+		width: 42vw;
+		height: 57vh;
+  	}
+
+	p {
+		font-size: 17px;
+  	}
+}
+
+@media (max-width: 1180px) {
+	#Avengers {
+    	height: 45%;
+	}
+	.moveBack {
+		top: 1em;
+		right: 3em;
+		font-size: 13px;
+		padding: 0.6em;
+  }
+  	div {
+		width: 61vw;
+		height: 25vh;
+		margin: 2px auto;
+	}
+	p {
+		font-size: 20px;
+  	}
+}
+
+@media (max-width: 1180px) and (orientation: landscape) {
+	#Avengers {
+    	height: 82%;
+	}
+	.moveBack {
+		top: 1.5em;
+		right: 4em;
+		font-size: 15px;
+		padding: 0.6em;
+  }
+  	div {
+		width: 60vw;
+		height: 55vh;
+		margin: 2px auto;
+	}
+	p {
+		font-size: 24px;
+  	}
+}
+
+@media (max-width: 896px) and (orientation: landscape) {
+	#Avengers {
+		height: 115%;
+		width: 100%;
+	}
+
+	.moveBack {
+		top: 1em;
+    	right: 4em;
+    	font-size: 9px;
+		padding: 0.6em;
+	}
+
+	div {
+		width: 46vw;
+		height: 62vh;
+		margin: 2px auto;
+	}
+
+	p {
+		font-size: 15px;
+	}
+}
+
+
+@media (max-width: 667px) {
+	#Avengers {
+		height: 100%;
+	}
+	.moveBack {
+		font-size: 7.5px;
+		top: 2em;
+		right: 6em;
+	}
+	div {
+		width: 64vw;
+		height: 71vh;
+		margin: 3px auto;
+	}
+	p {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 667px) and (orientation: portrait) {
+	#Avengers {
+    	height: 37%;
+	}
+	.moveBack {
+		font-size: 7px;
+		top: 1em;
+		right: 3em;
+  	}
+	  div {
+		width: 67vw;
+		height: 24vh;
+		margin: 3px auto;
+  	}
+	  p {
+		font-size: 10px;
+  	}
+}
+
+/*@media (max-width: 653px) and (orientation: landscape) {
+	#Avengers {
+    	height: 140%;
+	}
+	div {
+		width: 37vw;
+		height: 103vh;
+		margin: 2px auto;
+  	}
+}*/
